@@ -1,0 +1,48 @@
+.main {
+    width: 100wh;
+    height: 1500px;
+    background-image: url(../../../assets/events.png);
+    background-position: center;
+    background-size: cover;
+    padding: 150px;
+}
+
+.search {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.month {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 950px;
+}
+
+.link {
+    display: block;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 30px;
+    padding: 20px;
+    border: 5px solid white;
+    border-radius: 50px;
+}
+
+.date {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 20px;
+}

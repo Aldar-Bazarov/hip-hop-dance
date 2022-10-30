@@ -1,0 +1,51 @@
+.main {
+    min-height: 60vh;
+    padding: 100px;
+    background-image: url(../../../assets/clouds.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0 0 50px 0;
+}
+
+.wrapper {
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 50px;
+    justify-content: center;
+}
+
+.shopCategory {
+    width: 500px;
+    height: 300px;
+    background-image: url('../../../assets/shop_category_1.png');
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.shopCategory h3 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.linkCategory  {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 6px solid white;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}

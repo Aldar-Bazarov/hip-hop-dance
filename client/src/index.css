@@ -1,0 +1,28 @@
+@import url("./reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: white;
+  font-family: 'Recursive', monospace;
+  font-size: 14px;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.main {
+  min-height: 60vh;
+  padding: 100px;
+}

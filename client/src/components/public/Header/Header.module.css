@@ -1,0 +1,47 @@
+.header {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/* .header .nav .link {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    mask-image: url("./assets/rapper-hip-hop-svgrepo-com.svg");
+} */
+
+.header .nav img {
+    fill: white;
+}
+
+.header .logo {
+    /* font-family: "Rock Salt"; */
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.header .navList {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    list-style-type: none;
+}
+
+.navItem {
+    font-size: 20px;
+}
+
+.navItem:hover {
+    cursor: pointer;
+}

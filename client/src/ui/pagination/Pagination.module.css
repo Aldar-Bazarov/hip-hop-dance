@@ -1,0 +1,18 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.togglePages {
+    padding: 5px 10px;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px #ffa200;
+    border-radius: 20%;
+}
+
+.togglePages:hover {
+    cursor: pointer;
+}

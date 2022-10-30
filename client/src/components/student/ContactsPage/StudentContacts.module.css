@@ -1,0 +1,29 @@
+.title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.main {
+    min-height: 60vh;
+    padding: 100px;
+    background-color: #777;
+}
+
+.wrapper {
+    margin: 50px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textInfo {
+    font-size: 20px;
+}
+
+.textInfo p {
+    margin: 20px 0 30px;
+}
+
+.textInfo ul li{
+    font-size: 20px;
+    margin-bottom: 10px;
+}

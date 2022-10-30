@@ -1,0 +1,137 @@
+$dark-background: #444;
+$dark-backgorund-hover: #333;
+$dark-font-color: #ccc;
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+$dark-background: #444;
+$dark-backgorund-hover: #333;
+$dark-header-background: #555;
+$dark-font-color: #ccc;
+$arrow-color: #888;
+$button-background-hover: #666;
+$button-background-focus: #595959;
+$button-padding: 15px;
+$button-border-size: 8px;
+$day-soft-color: #565656;
+
+body {
+  margin: 0;
+  background-color: #777;
+}
+
+.calendar {
+  color: $dark-font-color;
+  float: left;
+  font-family: 'Lato', sans-serif;
+  height: 430px;
+  margin-left: 50%;
+  margin-top: 25px;
+  position: relative;
+  transform: translateX(-50%);
+  width: 400px;
+}
+
+.calendar-header {
+  background-color: $dark-header-background;
+  float: left;
+  font-size: 18px;
+  height: 50px;
+  line-height: 2.78;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.button-container {
+  height: 100%;
+  position: relative;
+
+  &--left {
+    float: left;
+  }
+
+  &--right {
+    float: right;
+  }
+}
+
+.button-content {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  float: left;
+  height: 100%;
+  padding-left: $button-padding;
+  position: relative;
+  transition: background .3s ease;
+
+  &:hover {
+    background-color: $button-background-hover;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+
+  &--left {
+    &::before {
+      border-bottom: $button-border-size solid transparent;
+      border-right: $button-border-size solid $arrow-color;
+      border-top: $button-border-size solid transparent;
+      content: '';
+      display: inline-block;
+      height: 0;
+      margin-right: 10px;
+      vertical-align: middle;
+      width: 0;
+
+    }
+  }
+
+  &--right {
+    &::before {
+      border-bottom: $button-border-size solid transparent;
+      border-left: $button-border-size solid $arrow-color;
+      border-top: $button-border-size solid transparent;
+      content: '';
+      display: inline-block;
+      height: 0;
+      margin-right: 10px;
+      vertical-align: middle;
+      width: 0;
+    }
+  }
+}
+
+.week {
+  float: left;
+  width: 100%;
+}
+
+.weekday {
+  background-color: $dark-background;
+  float: left;
+  height: 40px;
+  line-height: 2.5;
+  text-align: center;
+  width: 14.28%;
+}
+
+.day {
+  background-color: $dark-background;
+  box-sizing: border-box;
+  float: left;
+  font-weight: 300;
+  height: 50px;
+  padding: 10px 0;
+  position: relative;
+  text-align: center;
+  transition: background .2s ease;
+  width: 14.28%;
+  z-index: 999;
+
+  &--soft {
+    color: $day-soft-color;
+  }
+}
